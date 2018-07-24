@@ -1,0 +1,21 @@
+<project> 
+  <modelVersion>4.0.0</modelVersion> 
+  <groupId>Maventest</groupId> 
+  <artifactId>Maventest</artifactId> 
+  <version>4.0.0</version> 
+  <packaging>jar</packaging> 
+  <name>Maven Build Project</name> 
+  <description>Maven Build Project</description> 
+<build> 
+  <plugins> 
+   <plugin> 
+     <groupId>org.apache.maven.plugins</groupId> 
+     <artifactId>maven-jar-plugin</artifactId> 
+     <version>3.1.0</version> 
+     <configuration> 
+      <jarName>${project.artifactId}</jarName> 
+     </configuration> 
+    </plugin> 
+  </plugins> 
+ </build>     
+ </project> 
